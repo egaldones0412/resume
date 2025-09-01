@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Edz Lilian Galdones</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: #f0f2f5;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Montserrat', sans-serif;
+        }
+        .progress-bar-container {
+            width: 100%;
+            background-color: #4A5568;
+            border-radius: 9999px;
+            height: 8px;
+        }
+        .progress-bar {
+            background-color: #4fd1c5;
+            height: 8px;
+            border-radius: 9999px;
+        }
+        .icon-accent {
+            color: #4fd1c5;
+        }
+        .timeline-marker {
+            position: absolute;
+            left: -44px;
+            top: 4px;
+            height: 16px;
+            width: 16px;
+            background-color: #004d40;
+            border-radius: 50%;
+            border: 3px solid #fff;
+            z-index: 10;
+        }
+        .header-bg {
+             background: linear-gradient(90deg, #004d40 0%, #00796b 100%);
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <div class="max-w-4xl mx-auto my-8 bg-white shadow-2xl flex flex-col md:flex-row rounded-lg overflow-hidden">
+        
+        <!-- Left Column (Sidebar) -->
+        <aside class="w-full md:w-1/3 bg-gray-800 text-white p-8">
+            <div class="flex flex-col items-center text-center">
+                <img src="https://placehold.co/128x128/E2E8F0/4A5568?text=EG" alt="Edz Galdones" class="rounded-full h-32 w-32 border-4 border-teal-400 mb-6">
+                
+                <section class="w-full mb-8">
+                    <h3 class="text-xl font-bold border-b-2 border-teal-400 pb-2 mb-4 uppercase tracking-wider">Contact</h3>
+                    <ul class="space-y-3 text-sm text-left">
+                        <li class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3 icon-accent" viewBox="0 0 20 20" fill="currentColor"><path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" /><path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" /></svg><a href="mailto:egaldones27@gmail.com" class="hover:text-teal-300">egaldones27@gmail.com</a></li>
+                        <li class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3 icon-accent" viewBox="0 0 20 20" fill="currentColor"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" /></svg><span>+63 970 271 3757</span></li>
+                        <li class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3 icon-accent" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" /></svg><span>Mati City, Philippines</span></li>
+                        <li class="flex items-center"><svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3 icon-accent" viewBox="0 0 20 20" fill="currentColor"><path d="M10 2a8 8 0 100 16 8 8 0 000-16zM5.5 10a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0z" /><path d="M12.5 11.5a1 1 0 100-2 1 1 0 000 2zM7.5 11.5a1 1 0 100-2 1 1 0 000 2z" /></svg><a href="#" class="hover:text-teal-300">linkedin.com/in/edzgaldones</a></li>
+                    </ul>
+                </section>
+
+                <section class="w-full mb-8 text-left">
+                    <h3 class="text-xl font-bold border-b-2 border-teal-400 pb-2 mb-4 uppercase tracking-wider">Softwares</h3>
+                    <div class="flex flex-wrap gap-2 text-xs">
+                        <span class="bg-gray-700 rounded-full px-3 py-1">QuickBooks Online</span>
+                        <span class="bg-gray-700 rounded-full px-3 py-1">Xero</span>
+                        <span class="bg-gray-700 rounded-full px-3 py-1">Zoho Books</span>
+                        <span class="bg-gray-700 rounded-full px-3 py-1">FreshBooks</span>
+                        <span class="bg-gray-700 rounded-full px-3 py-1">Sage</span>
+                        <span class="bg-gray-700 rounded-full px-3 py-1">Wave</span>
+                        <span class="bg-gray-700 rounded-full px-3 py-1">MYOB</span>
+                        <span class="bg-gray-700 rounded-full px-3 py-1">Peachtree</span>
+                        <span class="bg-gray-700 rounded-full px-3 py-1">MS Excel</span>
+                    </div>
+                </section>
+                
+                 <section class="w-full mb-8 text-left">
+                    <h3 class="text-xl font-bold border-b-2 border-teal-400 pb-2 mb-4 uppercase tracking-wider">LANGUAGES</h3>
+                    <div class="space-y-4 text-sm">
+                        <div><p>English (Fluent)</p><div class="progress-bar-container"><div class="progress-bar" style="width: 100%"></div></div></div>
+                        <div><p>Spanish (Conversational)</p><div class="progress-bar-container"><div class="progress-bar" style="width: 60%"></div></div></div>
+                        <div><p>Korean (Basic)</p><div class="progress-bar-container"><div class="progress-bar" style="width: 30%"></div></div></div>
+                    </div>
+                </section>
+
+                 <section class="w-full text-left">
+                    <h3 class="text-xl font-bold border-b-2 border-teal-400 pb-2 mb-4 uppercase tracking-wider">EDUCATION</h3>
+                    <div class="text-sm">
+                        <p class="font-bold">BS in Accountancy</p>
+                        <p class="text-gray-300">UM Tagum College</p>
+                        <p class="text-xs text-gray-400">Graduated 2018</p>
+                    </div>
+                </section>
+            </div>
+        </aside>
+
+        <!-- Right Column (Main Content) -->
+        <main class="w-full md:w-2/3 p-8 md:p-12">
+            <header class="mb-10 text-center md:text-left">
+                <div class="header-bg text-white inline-block px-6 py-2 rounded-md mb-2">
+                    <h2 class="text-lg font-semibold tracking-widest">EDZ LILIAN GALDONES</h2>
+                </div>
+                <h1 class="text-4xl font-extrabold text-gray-800 tracking-tight">Certified Accounting Professional</h1>
+                <p class="text-md text-gray-500 mt-1">QuickBooks ProAdvisor & Xero Certified Advisor</p>
+            </header>
+
+            <section class="mb-10">
+                <h3 class="text-2xl font-bold text-gray-700 flex items-center mb-4"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-3 icon-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>Professional Summary</h3>
+                <p class="text-gray-600 leading-relaxed">
+                    A highly motivated and results-oriented Certified Accounting Professional with 5+ years of experience managing full-cycle accounting for a diverse portfolio of international clients. Expert in leveraging technology to streamline financial processes, enhance accuracy, and provide actionable insights. Proven ability to reduce operational costs and improve financial reporting efficiency, directly contributing to client growth and success.
+                </p>
+            </section>
+            
+            <section class="mb-10">
+                <h3 class="text-2xl font-bold text-gray-700 flex items-center mb-4"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-3 icon-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" /></svg>Core Competencies</h3>
+                 <div class="flex flex-wrap gap-2 text-sm">
+                    <span class="bg-teal-100 text-teal-800 rounded-full px-4 py-1 font-semibold">International Bookkeeping</span>
+                    <span class="bg-teal-100 text-teal-800 rounded-full px-4 py-1 font-semibold">Tax Preparation (US & CA)</span>
+                    <span class="bg-teal-100 text-teal-800 rounded-full px-4 py-1 font-semibold">Financial Reporting & Analysis</span>
+                    <span class="bg-teal-100 text-teal-800 rounded-full px-4 py-1 font-semibold">Process Improvement</span>
+                    <span class="bg-teal-100 text-teal-800 rounded-full px-4 py-1 font-semibold">Client Relationship Management</span>
+                    <span class="bg-teal-100 text-teal-800 rounded-full px-4 py-1 font-semibold">A/P & A/R Management</span>
+                </div>
+            </section>
+
+            <section>
+                 <h3 class="text-2xl font-bold text-gray-700 flex items-center mb-6"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-3 icon-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>Professional Experience</h3>
+                <div class="relative border-l-2 border-gray-200 pl-8">
+                    
+                    <div class="job-entry relative mb-6">
+                        <div class="timeline-marker"></div>
+                        <p class="text-sm text-gray-500">Jan 2024 - Present</p>
+                        <h4 class="text-lg font-bold text-gray-800">Accounting Assistant | Lumeco Energy, LLC</h4>
+                        <ul class="list-disc list-inside text-gray-600 text-sm mt-1 space-y-1">
+                            <li>Streamlined the A/P process, reducing payment cycle time by 15% through automation.</li>
+                            <li>Maintained 100% accuracy on daily bank reconciliations across multiple accounts.</li>
+                            <li>Contributed to month-end closing procedures, helping to reduce closing time by 2 days.</li>
+                        </ul>
+                    </div>
+
+                    <div class="job-entry relative mb-6">
+                         <div class="timeline-marker"></div>
+                        <p class="text-sm text-gray-500">Sep 2023 - Present</p>
+                        <h4 class="text-lg font-bold text-gray-800">Accountant | Clarity Tax</h4>
+                        <ul class="list-disc list-inside text-gray-600 text-sm mt-1 space-y-1">
+                            <li>Prepared and filed over 50 accurate tax returns for individuals and small businesses in Q4 2023.</li>
+                            <li>Identified average client tax savings of 10% through meticulous record-keeping and deductions analysis.</li>
+                        </ul>
+                    </div>
+                  
+                    <div class="job-entry relative mb-6">
+                         <div class="timeline-marker"></div>
+                        <p class="text-sm text-gray-500">July 2022 - Present</p>
+                        <h4 class="text-lg font-bold text-gray-800">Part-time Bookkeeper | Canada Tax Pros</h4>
+                        <ul class="list-disc list-inside text-gray-600 text-sm mt-1 space-y-1">
+                             <li>Manage a portfolio of 10+ monthly clients, ensuring flawless full-cycle bookkeeping.</li>
+                            <li>Handle payroll processing for companies up to 25 employees with 100% on-time accuracy.</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="job-entry relative mb-6">
+                        <div class="timeline-marker"></div>
+                       <p class="text-sm text-gray-500">Sep 2022 - Feb 2023</p>
+                       <h4 class="text-lg font-bold text-gray-800">Part-Time Accountant | RE/MAX Real-Estate</h4>
+                       <ul class="list-disc list-inside text-gray-600 text-sm mt-1 space-y-1">
+                           <li>Managed trust accounts and processed agent commissions with precision, ensuring compliance with real estate regulations.</li>
+                           <li>Generated property-specific P&L statements, providing agents with key financial data for negotiations.</li>
+                       </ul>
+                   </div>
+                   
+                    <div class="job-entry relative mb-6">
+                        <div class="timeline-marker"></div>
+                       <p class="text-sm text-gray-500">Sep 2019 - Jul 2022</p>
+                       <h4 class="text-lg font-bold text-gray-800">QBO Bookkeeper / VA | Happiness is NOW Experience, LLC</h4>
+                       <ul class="list-disc list-inside text-gray-600 text-sm mt-1 space-y-1">
+                          <li>Functioned as the primary financial record-keeper and administrative backbone for a fast-paced consulting firm.</li>
+                          <li>Implemented a new chart of accounts in QBO, improving reporting clarity and expense tracking.</li>
+                       </ul>
+                   </div>
+                   
+                   <div class="job-entry relative mb-6">
+                        <div class="timeline-marker"></div>
+                       <p class="text-sm text-gray-500">Mar 2019 - Sep 2021</p>
+                       <h4 class="text-lg font-bold text-gray-800">Bookkeeper & Asst. Operations Manager | M.Y Fashion Jewelry</h4>
+                       <ul class="list-disc list-inside text-gray-600 text-sm mt-1 space-y-1">
+                          <li>Managed daily sales reconciliation and inventory tracking, reducing stock discrepancies by 20%.</li>
+                          <li>Assisted in day-to-day operations, including supplier coordination and sales support.</li>
+                       </ul>
+                   </div>
+
+                   <div class="job-entry relative mb-6">
+                    <div class="timeline-marker"></div>
+                   <p class="text-sm text-gray-500">Feb 2017 - Nov 2018</p>
+                   <h4 class="text-lg font-bold text-gray-800">Bookkeeper Trainee | Commission on Audit (COA)</h4>
+                   <ul class="list-disc list-inside text-gray-600 text-sm mt-1 space-y-1">
+                      <li>Gained foundational experience in governmental accounting standards and audit procedures.</li>
+                      <li>Assisted senior auditors in preparing reports and verifying financial documents for public entities.</li>
+                   </ul>
+               </div>
+                </div>
+            </section>
+            
+            <section class="mt-10">
+                 <h3 class="text-2xl font-bold text-gray-700 flex items-center mb-6"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-3 icon-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" /></svg>Selected Clients</h3>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 text-gray-700">
+                    <div><p class="font-bold">Group 28th, LLC</p><p class="text-sm text-gray-500">Real Estate, US</p></div>
+                    <div><p class="font-bold">HOME OFFICE 8643, LLC</p><p class="text-sm text-gray-500">Business Services, US</p></div>
+                    <div><p class="font-bold">RealTours, LLC</p><p class="text-sm text-gray-500">Property & Tours, US</p></div>
+                    <div><p class="font-bold">Rise Up Media Limited</p><p class="text-sm text-gray-500">Digital Media, UK</p></div>
+                    <div><p class="font-bold">Unit Retail B.V.</p><p class="text-sm text-gray-500">Retail, Netherlands</p></div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
+
